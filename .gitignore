@@ -95,9 +95,42 @@ wandb/
 mlruns/
 lightning_logs/
 
-# Logs y temporales
-*.log
+# Model files (ONNX, SavedModel, etc)
+*.onnx
+*.pb
+saved_model/
+
+# Datasets (large binary files)
+dataset/
+data/
+*.zip
+*.tar.gz
+*.rar
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# VS Code settings
+.vscode/settings.json
+
+# Output files y temporales
+outputs/
+results/
+temp/
 tmp/
+*.log
+*.csv
+!requirements.txt
+
+# Mac OS
+.AppleDouble
+.LSOverride
 temp/
 *.tmp
 
