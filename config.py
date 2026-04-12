@@ -9,7 +9,7 @@ y constantes para los nuevos modulos de clasificacion CNN y evaluacion de jugada
 # HARDWARE CONFIGURATION
 # ============================================================================
 
-ROBOT_IP = "172.16.126.101"
+ROBOT_IP = "172.16.125.35"
 # Reachable workspace pose with camera aligned to work surface
 SCANNING_POSITION = (0, -0.148, 0.206, -2.556, 1.523, 2.082)
 
